@@ -16,4 +16,10 @@ public class Person
 
     public void setVorname(String vorname) { this.vorname = vorname; }
     public void setNachname(String nachname) { this.nachname = nachname; }
+
+    @Override
+    public String toString()
+    {
+        return "Nachanme: " +nachname+ ", Vorname: " +vorname+ "\n";
+    }
 }
