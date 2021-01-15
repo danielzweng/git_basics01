@@ -4,11 +4,13 @@ public class Pet
 {
     private String name;
     private int age;
+    private int legs;
 
-    public Pet(String name, int age)
+    public Pet(String name, int age, int legs)
     {
         this.name = name;
         this.age = age;
+        this.legs = legs;
     }
 
     public String getName() { return name; }
