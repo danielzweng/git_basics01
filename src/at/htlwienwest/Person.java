@@ -7,11 +7,11 @@ public class Person
     private int age;
     private boolean sex;
 
-    public Person(String vorname, String nachname, boolean sex)
+    public Person(String vorname, String nachname, int age)
     {
         this.vorname = vorname;
         this.nachname = nachname;
-        this.sex = sex;
+        this.age = age;
     }
 
     public String getVorname() { return vorname; }
