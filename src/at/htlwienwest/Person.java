@@ -41,7 +41,7 @@ public class Person
     public void setVorname(String vorname) { this.vorname = vorname; }
     public void setNachname(String nachname) { this.nachname = nachname; }
 
-    private void geburtstag()
+    public void geburtstag()
     {
         this.age++;
     }
