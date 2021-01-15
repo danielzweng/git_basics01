@@ -4,11 +4,13 @@ public class Pet
 {
     private String name;
     private int age;
+    private boolean isCarnivore;
 
-    public Pet(String name, int age)
+    public Pet(String name, int age, boolean isCarnivore)
     {
         this.name = name;
         this.age = age;
+        this.isCarnivore = isCarnivore;
     }
 
     public String getName() { return name; }
